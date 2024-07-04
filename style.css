@@ -1,0 +1,252 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+@font-face {
+    font-family: openSans;
+    src: url(Open_Sans/openSans.ttf);
+}
+
+@font-face {
+    font-family: leto;
+    src: url(fonts/leto.ttf);
+}
+
+.hero {
+    display: flex;
+    gap: 30px;
+}
+
+.sidebar {
+    background: #605BFF;
+    width: 249px;
+    height: 100%;
+}
+
+.side-header {
+    display: flex;
+    padding: 40px 52px 41px 21px;
+    gap: 15px;
+}
+
+.side-header {
+    width: 25px;
+    height: 25px;
+}
+
+.side-header h1 {
+    margin-top: -5px;
+    font-size: 25px;
+    font-family: openSans;
+    color: #FFFFFF;
+
+}
+
+.side-manu {
+    padding: 12px 21px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.side-dashboard,
+.vendors,
+.customers,
+.airlines,
+.booking,
+.expences,
+.banks,
+.setting {
+    line-height: 25px;
+    display: flex;
+    gap: 8px;
+
+}
+
+.side-dashboard img,
+.vendors img,
+.customers img,
+.airlines img,
+.booking img,
+.expences img,
+.banks img,
+.setting img {
+    width: 17px;
+    height: 17px;
+}
+
+.side-dashboard h1,
+.vendors h1,
+.customers h1,
+.airlines h1,
+.booking h1,
+.expences h1,
+.banks h1,
+.setting h1 {
+    font-family: leto;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 16px;
+    text-align: left;
+    color: #FFFFFF;
+}
+
+.side-img img {
+
+    width: 200px;
+    height: 200px;
+    margin-top: 49px;
+    left: -106px;
+    gap: 0px;
+    opacity: 10px;
+
+}
+
+/* here we setting the dashboard */
+
+.navbar {
+    display: flex;
+    gap: 90%;
+    width: 1230px;
+    justify-content: center;
+    background-color: rgb(225, 225, 225, 0.1);
+}
+
+.bil-icon {
+    display: flex;
+    gap: 50px;
+}
+
+.card-heading h1 {
+    font-family: openSans;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
+
+}
+
+.dash-card {
+    display: flex;
+    flex-direction: column;
+    margin: 32px;
+    gap: 32px;
+}
+
+.card {
+    display: flex;
+    gap: 35px;
+}
+
+.active-card {
+    font-family: leto;
+    width: 255px;
+    height: 113px;
+    background: rgba(96, 91, 255, 1);
+    gap: 0px;
+    border-radius: 12px;
+    opacity: 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 71px;
+}
+
+.active-grap {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.active-user {
+    width: 50px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0px;
+    border-radius: 6px;
+    opacity: 0px;
+    background: rgba(255, 255, 255, 1);
+}
+
+.active-user img {
+    width: 25.91px;
+    height: 22.23px;
+    top: 184px;
+    left: 311px;
+    gap: 0px;
+    opacity: 0px;
+}
+
+.card-text {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.card-text h1 {
+    color: rgba(255, 255, 255, 1);
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 16px;
+    text-align: left;
+
+}
+
+.card-text p {
+    color: rgba(255, 255, 255, 1);
+    font-size: 10px;
+    font-weight: 400;
+    line-height: 12px;
+    text-align: left;
+
+
+}
+
+.active-circle {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+}
+
+.active-circle p {
+    color: rgba(255, 255, 255, 1);
+    font-size: 8px;
+    font-weight: 400;
+    line-height: 9px;
+    letter-spacing: 0.0168em;
+    text-align: left;
+
+}
+
+.circle-img {
+    width: 47.99px;
+    height: 47.99px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0px;
+    opacity: 0px;
+    background-image: url(images/circle-img.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.circle-img p {
+    color: rgba(255, 255, 255, 1);
+    font-size: 10px;
+    font-weight: 700;
+    line-height: 12px;
+    text-align: left;
+
+}
