@@ -1,0 +1,386 @@
+<!doctype html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="./output.css" rel="stylesheet">
+    <link rel="stylesheet" href="booking.css">
+    <link rel="stylesheet" href="expence.css">
+    <link rel="stylesheet" href="dashboard.css">
+    <title>Travelacco</title>
+</head>
+
+<body>
+    <section>
+        <div class="hero">
+            <div class="sidebar w-96 h-full bg-#605BFF; ">
+
+                <div class="side-header">
+                    <img src="sideimg/icon.png" alt="">
+                    <h1>Travelacco</h1>
+                </div>
+                <div class="side-manu">
+                    <div class="side-dashboard ">
+                        <img src="sideimg/dash-icon.png" alt="">
+                        <h1>Dashboard</h1>
+                    </div>
+                    <div class="vendors">
+                        <img src="sideimg/vendors-icon.png" alt="">
+                        <h1>vendors</h1>
+                    </div>
+                    <div class="customers">
+                        <img src="sideimg/customer-icon.png" alt="">
+                        <h1>Customers</h1>
+                    </div>
+                    <div class="airlines">
+                        <img src="sideimg/airlines.png" alt="">
+                        <h1>Airlines</h1>
+                    </div>
+                    <div class="booking">
+                        <img src="sideimg/booking-icon.png" alt="">
+                        <h1>Booking</h1>
+                    </div>
+                    <div class="expences">
+                        <img src="sideimg/expencies-icon.png" alt="">
+                        <h1>Expense Account</h1>
+                    </div>
+                    <div class="banks">
+                        <img src="sideimg/banks.png" alt="">
+                        <h1>Banks</h1>
+                    </div>
+                    <div class="setting">
+
+                        <img src="sideimg/settings.png" alt="">
+                        <h1>Settings</h1>
+                    </div>
+                </div>
+                <div class="side-img">
+                    <img src="sideimg/side.img.png" alt="">
+                </div>
+            </div>
+            <!-- here we setting the dashboard -->
+            <div class="dashboard">
+                <div class="navbar">
+                    <div></div>
+                    <div class="bill-icon">
+                        <img src="images/bil-icon.png" alt="">
+                        <img src="images/nav-icon.png" alt="">
+                    </div>
+                </div>
+                <div class="dash-card">
+                    <div class="card-heading">
+                        <h1>Dashboard</h1>
+                    </div>
+                    <div class="card">
+                        <div class="active-card">
+                            <div class="active-grap">
+                                <div class="active-user">
+                                    <img src="images/grap-icon.png" alt="">
+                                </div>
+                                <div class="card-text">
+                                    <h1>7548</h1>
+                                    <p>Active user</p>
+                                </div>
+                            </div>
+                            <div class="active-circle">
+                                <p>Last 7 days </p>
+                                <div class="circle-img">
+                                    <p>4%</p>
+                                    <span><img src="images/up-icon.png" alt=""></span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="active-card">
+                            <div class="active-grap">
+                                <div class="active-user ml-10">
+                                    <img src="images/dollar-icon.png" alt="">
+                                </div>
+                                <div class="card-text">
+                                    <h1 style="font-size: 17px;">$4,300</h1>
+                                    <p>Revenue</p>
+                                </div>
+                            </div>
+                            <div class="active-circle">
+                                <p>Last 7 days </p>
+                                <div style="background-image: url(images/revinue-circle.png);" class="circle-img">
+                                    <p>7%</p>
+                                    <span><img src="images/up-icon.png" alt=""></span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="active-card">
+                            <div class="active-grap">
+                                <div class="active-user">
+                                    <img style="width: 25px; height: 15px;" src="images/revinue.png" alt="">
+                                </div>
+                                <div class="card-text">
+                                    <h1>12</h1>
+                                    <p>Cancelled</p>
+                                </div>
+                            </div>
+                            <div class="active-circle">
+                                <p>Last 7 days </p>
+                                <div style="background-image: url(images/Group\ 702\ \(1\).png);" class="circle-img">
+                                    <p>0%</p>
+                                    <span><img src="images/down-icon.png" alt=""></span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="active-card">
+                            <div class="active-grap">
+                                <div class="active-user">
+                                    <img src="images/revinue-icon.png" alt="">
+                                </div>
+                                <div class="card-text">
+                                    <h1>2986</h1>
+                                    <p>Complete</p>
+                                </div>
+                            </div>
+                            <div class="active-circle">
+                                <p>Last 7 days </p>
+                                <div style="background-image: url(images/Group\ 702\ \(2\).png);" class="circle-img">
+                                    <p>10%</p>
+                                    <span><img src="images/up-icon.png" alt=""></span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- here we setting the booking part -->
+                <div class="setting-booking">
+
+
+                    <div class="booking-main">
+                        <div class="header-booking">
+                            <h1>Booking</h1>
+                            <button
+                                style="width: 58px; height: 26px; border-radius: 3px; padding: 5px 8px;background-color: (255, 255, 255, 1);">june
+                                14</button>
+                        </div>
+                        <div class="table-booking">
+                            <div class="list-header">
+                                <h1>Name</h1>
+                                <h1>Destination</h1>
+                                <h1>Airlines</h1>
+                                <h1>Expire At</h1>
+                                <h1>passport no.</h1>
+                            </div>
+                            <div class="group-list">
+                                <div class="shane">
+                                    <p>Nguyen, Shane</p>
+                                    <div class="dhk"
+                                        style="display: flex; display: flex; align-items: center; width: 30x;height: 20px; margin-left: -40px;">
+                                        <p>dhk</p>
+                                        <img style="height: 5px; width: 65px;" src="bookingimg/linebar.png" alt="">
+                                        <p>KOL</p>
+                                    </div>
+                                    <p>Aigle Azur</p>
+                                    <button
+                                        style="border-radius: 3px; width: 73px; height: 26px; background: rgba(253, 217, 218, 1);border: 1px solid rgba(253, 217, 218, 1),">05:14
+                                        pm</button>
+                                    <p>6221376671</p>
+                                </div>
+                                <div class="shane">
+                                    <p>Miles, Esther</p>
+                                    <div class="dhk"
+                                        style="display: flex; display: flex; align-items: center; width: 30x;height: 20px; margin-left: -40px;">
+                                        <p>dhk</p>
+                                        <img style="height: 5px; width: 65px;" src="bookingimg/linebar.png" alt="">
+                                        <p>KOL</p>
+                                    </div>
+                                    <p>Aero Airlines</p>
+                                    <button
+                                        style="border-radius: 3px;color: rgba(197, 182, 0, 1); width: 73px; height: 26px; background:rgba(254, 249, 187, 1);border: 1px solid rgba(254, 249, 187, 1),">07:38
+                                        am</button>
+                                    <p>2112032819</p>
+                                </div>
+                                <div class="shane">
+                                    <p>Flores, Juanita</p>
+                                    <div class="dhk"
+                                        style="display: flex; display: flex; align-items: center; width: 30x;height: 20px; margin-left: -40px;">
+                                        <p>DHK</p>
+                                        <img style="height: 5px; width: 65px;" src="bookingimg/linebar.png" alt="">
+                                        <p>KOL</p>
+                                    </div>
+                                    <p>Air Alsie</p>
+                                    <button
+                                        style="border-radius: 3px; color: rgba(65, 186, 85, 1); width: 73px; height: 26px; background: rgba(216, 254, 216, 1);border: 1px solid rgba(216, 254, 216, 1),">08:20
+                                        pm</button>
+                                    <p>9501956750</p>
+                                </div>
+                                <div class="shane">
+                                    <p>Cooper, Kristin</p>
+                                    <div class="dhk"
+                                        style="display: flex; display: flex; align-items: center; width: 30x;height: 20px; margin-left: -40px;">
+                                        <p>DHK</p>
+                                        <img style="height: 5px; width: 65px;" src="bookingimg/linebar.png" alt="">
+                                        <p>KOL</p>
+                                    </div>
+                                    <p>Aerovis Airlines</p>
+                                    <button
+                                        style="border-radius: 3px;color: rgba(65, 186, 85, 1); width: 73px; height: 26px;background: rgba(216, 254, 216, 1);border: 1px solid rgba(216, 254, 216, 1),">02:10
+                                        pm</button>
+                                    <p>8524792206</p>
+                                </div>
+                            </div>
+
+                        </div>
+                        <!-- here we setting the shadule div -->
+
+                    </div>
+                    <div class="shadule">
+                        <div class="shadule-header">
+                            <h1>Scheduler</h1>
+                            <button style="width: 45px; height: 23px; border-radius: 3px; padding: 2px 6px;">june
+                            </button>
+                        </div>
+                        <div class="calander">
+                            <div class="name-days">
+                                <p>Sun</p>
+                                <p>MOn</p>
+                                <p>Tue</p>
+                                <p>Wed</p>
+                                <p>Thu</p>
+                                <p>Fri</p>
+                                <p>Sat</p>
+                            </div>
+                        </div>
+                        <div class="calander-set">
+                            <div class="set1">
+                                <p style=" color: rgba(189, 189, 189, 1);">29</p>
+                                <p style=" color: rgba(189, 189, 189, 1);">30</p>
+                                <p style=" color: rgba(189, 189, 189, 1);">31</p>
+                                <p>01</p>
+                                <p>02</p>
+                                <p>03</p>
+                                <p>04</p>
+                                <p>05</p>
+                                <p>06</p>
+                                <p>07</p>
+                                <p>08</p>
+                                <p>09</p>
+                                <p>10</p>
+                                <p>11</p>
+                                <p>12</p>
+                                <p>13</p>
+                                <p style="background-color: rgba(96, 91, 255, 1); color: aliceblue;">14</p>
+                                <p style="background-color:rgba(244, 244, 244, 1);">15</p>
+                                <p style="background-color:rgba(244, 244, 244, 1); ">16</p>
+                                <p style="background-color:rgba(244, 244, 244, 1); ">17</p>
+                                <p style="background-color: rgba(244, 244, 244, 1); ">18</p>
+                                <p style="background-color: rgba(244, 244, 244, 1); ">19</p>
+                                <p style="background-color: rgba(244, 244, 244, 1); ">20</p>
+                                <p style="background-color: rgba(244, 244, 244, 1); ">21</p>
+                                <p style="background-color: rgba(244, 244, 244, 1); ">21</p>
+                                <p style="background-color: rgba(244, 244, 244, 1); ">22</p>
+                                <p style="background-color: rgba(244, 244, 244, 1); ">23</p>
+                                <p style="background-color: rgba(244, 244, 244, 1); ">24</p>
+                                <p style="background-color: rgba(244, 244, 244, 1); ">25</p>
+                                <p style="background-color:rgba(244, 244, 244, 1);">26</p>
+                                <p style="background-color:rgba(244, 244, 244, 1);">27</p>
+                                <p style="background-color:rgba(244, 244, 244, 1);">28</p>
+                                <p style="background-color:rgba(244, 244, 244, 1);">29</p>
+                                <p style="background-color:rgba(244, 244, 244, 1);">30</p>
+                                <p style=" color: rgba(189, 189, 189, 1);">1</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- here we setting the expences -->
+                <div class="main-information">
+
+
+                    <div class="setting-expences">
+                        <div style="margin-top: 20px;" class="expences-header">
+
+                            <h1>Booking</h1>
+                            <button>
+                                More
+                                <span><img src="imagesex/Group.png" alt=""></span>
+                            </button>
+
+                        </div>
+                        <div class="expence-img">
+                            <!-- <img src="imagesex/finalcircl.png" alt=""> -->
+                            <div style="background-image: url(imagesex/finalcircl.png);background-position: center;background-repeat: no-repeat;background-size: cover;width: 231px;height: 231px;  display: flex;align-items: center;justify-content: center;flex-direction: column;"
+                                class="expence-text">
+                                <h3>Total</h3>
+                                <h1>$2,200</h1>
+                            </div>
+                        </div>
+                        <div style="margin-top: 20px;" class="information">
+                            <div class="contect">
+                                <div class="ss"></div>
+                                <div class="expence-office">
+                                    <span>Office Expense</span>
+                                </div>
+
+                            </div>
+                            <div class="contect">
+                                <div class="ll"></div>
+                                <div class="expence-office">
+                                    <span>Bank Expense</span>
+                                </div>
+
+                            </div>
+                            <div class="contect">
+                                <div class="kk"></div>
+                                <div class="expence-office">
+                                    <span>Business travel</span>
+                                </div>
+
+                            </div>
+
+                        </div>
+                    </div>
+                    <!-- here we style the earning -->
+                    <div class="earning">
+                        <div style="display: flex;justify-content: space-between;margin-top: 20px;padding: 0px 20px;"
+                            class="earning-head ">
+                            <h1>Earning</h1>
+                            <div class="set-button"
+                                style="display: flex; gap: 15px; justify-content: center;align-items: center;">
+                                <button>Weakly</button>
+                                <h3>Monthly</h3>
+                                <h3>yearly</h3>
+                            </div>
+                        </div>
+                        <div class="graphics">
+                            <div class="line-y">
+                                <p>$100k</p>
+                                <p>$80k</p>
+                                <p>$60k</p>
+                                <p>$40k</p>
+                                <p>$20k</p>
+                                <p>$0k</p>
+                            </div>
+                            <div class="line-x">
+                                <div class="x-img">
+                                    <img src="imagesex/graphic pic.png" alt="">
+                                </div>
+                                <div class="x-text">
+                                    <p>May</p>
+                                    <p>June</p>
+                                    <p>July</p>
+                                    <p>Aug</p>
+                                    <p>Step</p>
+                                    <p>Oec</p>
+                                    <p>Nov</p>
+                                    <p>Dev</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </div>
+        </div>
+    </section>
+
+
+</body>
+
+</html>

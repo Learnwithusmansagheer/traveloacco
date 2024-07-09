@@ -1,0 +1,199 @@
+.setting-booking {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-left: 240px;
+}
+
+.booking-main {
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 10px 30px;
+    margin-left: 25px;
+    gap: 0px;
+    border-radius: 12px;
+    opacity: 0px;
+    background: rgb(255, 254, 254);
+
+
+}
+
+.header-booking {
+    display: flex;
+    justify-content: space-between;
+    padding: 5px 10px;
+
+}
+
+.header-booking h1 {
+    font-family: opensans;
+
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 28px;
+    text-align: left;
+
+}
+
+.header-booking button {
+    border-color: white;
+    font-family: leto;
+    font-size: 10px;
+    font-weight: 400;
+    line-height: 15px;
+    letter-spacing: 0.0168em;
+    text-align: left;
+    color: rgba(96, 91, 255, 1);
+    box-shadow: 0px 0px 2px 0px rgba(0, 0, 0, 0.2);
+
+}
+
+.list-header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 10px 30px;
+    font-family: leto;
+    font-size: 13px;
+    font-weight: 600;
+    line-height: 12px;
+    text-align: left;
+
+}
+
+.group-list {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 14px;
+    margin-left: -10px;
+    gap: 20px;
+
+}
+
+
+.shane {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 650px;
+    height: 61.9px;
+    padding: 25px 35px 24px 25px;
+    border-radius: 12px;
+    opacity: 0px;
+    background: rgba(255, 255, 255, 1);
+    margin-left: 20px;
+    box-shadow: 5px 4px 21.1px 0px rgba(0, 0, 0, 0.05);
+
+}
+
+.shane p {
+
+    font-family: opensans;
+    font-size: 11px;
+    font-weight: 400;
+    line-height: 12px;
+    text-align: center;
+
+}
+
+
+/* here we setting the shadule */
+.shadule {
+    width: 40%;
+border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: px;
+    opacity: 15px;
+    background: rgb(253, 251, 251);
+    padding: 30px 20px;
+
+
+}
+
+.shadule-header {
+    width: 370px;
+    height: 28px;
+    display: flex;
+   padding: 0px 10px;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: -50px;
+    
+   
+}
+.shadule-header h1{
+    font-family: opensans;
+font-size: 20px;
+font-weight: 400;
+line-height: 28px;
+text-align: left;
+
+}
+
+.shadule-header button {
+    border-color: white;
+    font-family: leto;
+    font-size: 10px;
+    font-weight: 400;
+    line-height: 15px;
+    letter-spacing: 0.0168em;
+    text-align: left;
+    color: rgba(96, 91, 255, 1);
+    box-shadow: 0px 0px 2px 0px rgba(0, 0, 0, 0.2);
+
+}
+
+.name-days {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    gap: 23px;
+    font-family: opensans;
+    font-size: 13px;
+    font-weight: 600;
+    line-height: 15.6px;
+    text-align: center;
+    color:rgba(123, 130, 126, 1)
+
+}
+
+.calander-set {
+    font-family: opensans;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 16.8px;
+    text-align: center;
+
+}
+
+.set1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    flex-wrap: wrap;
+    width: 339px;
+    margin-top: 30px;
+
+}
+
+.set1 p {
+    display: flex;
+    margin: 17px 7px;
+   
+    width: 32px;
+    height: 27px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    border-radius: 3px;
+    opacity: 0px;
+    gap: 40px;
+}

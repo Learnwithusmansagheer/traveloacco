@@ -1,0 +1,208 @@
+.main-information {
+    display: flex;
+    
+    margin-left: 240px;
+}
+
+.setting-expences {
+    background-color: rgb(254, 254, 254);
+    width: 40%;
+    padding: 10px 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 24px;
+    border-radius: 10px;
+
+}
+
+.expences-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: leto;
+    gap: 290px;
+}
+
+.expences-header button {
+    border-color: rgb(255, 255, 255);
+    font-family: leto;
+    width: 55px;
+    height: 26px;
+    top: 693px;
+    left: 618px;
+    padding: 8px 5px 8px 5px;
+    gap: 10px;
+    border-radius: 3px 0px 0px 0px;
+    opacity: 0px;
+    font-size: 10px;
+    font-weight: 400;
+    line-height: 15px;
+    letter-spacing: 0.0168em;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: rgba(96, 91, 255, 1);
+
+}
+
+.information {
+    font-family: opensans;
+    display: flex;
+    gap: 25px;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
+
+}
+
+.contect {
+    display: flex;
+    align-items: center;
+}
+
+.expence-text {
+    font-family: leto;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
+
+}
+
+.ss {
+    width: 9px;
+    height: 9px;
+    top: 8px;
+    gap: 0px;
+    opacity: 0px;
+    background: linear-gradient(177.61deg, #18E1A3 2%, #08C792 130.22%);
+    border-radius: 5%;
+}
+
+.ll {
+    width: 9px;
+    height: 9px;
+    top: 8px;
+    gap: 0px;
+    opacity: 0px;
+    background: linear-gradient(180deg, #21D5E2 0%, #4348E1 100%);
+
+    border-radius: 5%;
+}
+
+.kk {
+    width: 9px;
+    height: 9px;
+    top: 8px;
+    gap: 0px;
+    opacity: 0px;
+    background: linear-gradient(180deg, #FFC74E 0%, #FF7F06 100%);
+
+    border-radius: 5%;
+}
+
+/* here we setting the earning point */
+.earning {
+    padding: 10px 10px 0px 10;
+    width: 55%;
+    height: auto;
+    background-color: #ffffff;
+    margin-top: 24px;
+    border-radius: 5px;
+}
+
+.earning-head {
+    font-family: opensans;
+}
+
+.earning-head h1 {
+
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 28px;
+    text-align: left;
+
+}
+
+.set-button button {
+    border-color: rgb(255, 255, 255);
+    font-family: leto;
+    width: 55px;
+    height: 26px;
+    top: 693px;
+    left: 618px;
+    padding: 8px 5px 8px 5px;
+    gap: 10px;
+    border-radius: 3px 0px 0px 0px;
+    opacity: 0px;
+    font-size: 10px;
+    font-weight: 400;
+    line-height: 15px;
+    letter-spacing: 0.0168em;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: rgba(96, 91, 255, 1);
+
+}
+
+.set-button h3 {
+    font-family: leto;
+    font-size: 10px;
+    font-weight: 400;
+    line-height: 15px;
+    letter-spacing: 0.0168em;
+    text-align: left;
+    color: rgba(0, 0, 0, 1)
+}
+
+.graphics {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: -15px;
+}
+
+.line-y {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    font-family: opensans;
+    font-size: 11px;
+    font-weight: 400;
+    line-height: 12px;
+    text-align: left;
+    color: rgba(175, 175, 255, 1);
+
+}
+
+.line-x {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+
+}
+
+.x-img {
+    padding: 20px;
+}
+
+.x-text {
+
+    font-family: opensans;
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 12px;
+    text-align: left;
+    color: rgba(175, 175, 255, 1);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 55px;
+}
