@@ -93,20 +93,22 @@ body {
     height: 17px;
 }
 
-.side-dashboard h1,
-.vendors h1,
-.customers h1,
-.airlines h1,
-.booking h1,
-.expences h1,
-.banks h1,
-.setting h1 {
+.side-dashboard a,
+.vendors a,
+.customers a,
+.airlines a,
+.booking a,
+.expences a,
+.banks a,
+.setting a {
     font-family: leto;
     font-size: 16px;
     font-weight: 400;
     line-height: 16px;
     text-align: left;
     color: #FFFFFF;
+    text-decoration: none;
+    cursor: pointer;
 }
 
 .side-img img {

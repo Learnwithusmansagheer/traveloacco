@@ -83,20 +83,22 @@ body {
     height: 17px;
 }
 
-.side-dashboard h1,
-.vendors h1,
-.customers h1,
-.airlines h1,
-.booking h1,
-.expences h1,
-.banks h1,
-.setting h1 {
+.side-dashboard a,
+.vendors a,
+.customers a,
+.airlines a,
+.booking a,
+.expences a,
+.banks a,
+.setting a {
     font-family: leto;
     font-size: 16px;
     font-weight: 400;
     line-height: 16px;
     text-align: left;
     color: #FFFFFF;
+    text-decoration: none;
+    cursor: pointer;
 }
 
 .side-img img {
@@ -142,7 +144,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 865px;
+    gap: 905px;
     padding: 10px 10px;
 }
 
@@ -169,6 +171,7 @@ body {
     line-height: 16px;
     text-align: center;
     color: rgba(255, 255, 255, 1);
+    cursor: pointer;
 }
 
 /* here we setting the main-card */
@@ -177,7 +180,7 @@ body {
     height: 867px;
 
     gap: 0px;
-    border-radius: 12px ;
+    border-radius: 12px;
     opacity: 0px;
     background-color: rgb(255, 255, 255);
     padding: 15px 25px;
@@ -210,7 +213,7 @@ body {
     font-size: 14px;
     font-weight: 400;
     line-height: 20px;
-
+    cursor: pointer;
 
 }
 
@@ -230,7 +233,7 @@ body {
     background-position: 10px 7px;
     background-repeat: no-repeat;
     padding: 10px 20px 12px 40px;
-
+    cursor: pointer;
 }
 
 .filter-input button {
@@ -305,7 +308,7 @@ td {
 
 .rows {
     display: flex;
-   
+
     align-items: center;
     gap: 10px;
 }
@@ -333,14 +336,15 @@ td {
     background-color: rgba(96, 91, 255, 1);
     color: rgba(255, 255, 255, 1);
 }
-.choice p{
 
-font-family: opensans;
-font-size: 13px;
-font-weight: 400;
-line-height: 16px;
-text-align: left;
-color: rgba(97, 97, 97, 1);
+.choice p {
+
+    font-family: opensans;
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 16px;
+    text-align: left;
+    color: rgba(97, 97, 97, 1);
 }
 
 .choice {
@@ -348,7 +352,7 @@ color: rgba(97, 97, 97, 1);
 
     align-items: center;
     gap: 15px;
-   
+
 }
 
 .choice button {
