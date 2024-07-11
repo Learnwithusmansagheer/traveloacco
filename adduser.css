@@ -1,0 +1,331 @@
+@font-face {
+    font-family: openSans;
+    src: url(Open_Sans/openSans.ttf);
+}
+
+@font-face {
+    font-family: leto;
+    src: url(fonts/leto.ttf);
+}
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-color: #f6f3f3;
+}
+
+.hero {
+    display: flex;
+    gap: 32px;
+}
+
+.sidebar {
+    background: #605BFF;
+    width: 17%;
+    height: 100vh;
+    position: fixed;
+
+}
+
+.side-header {
+    display: flex;
+    padding: 40px 52px 41px 21px;
+    gap: 30px;
+}
+
+.side-header {
+    width: 25px;
+    height: 25px;
+}
+
+.side-header h1 {
+    margin-top: -5px;
+    font-size: 25px;
+    font-family: openSans;
+    color: #FFFFFF;
+
+}
+
+.side-manu {
+    padding: 12px 21px;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    margin-top: 17px;
+}
+
+.side-dashboard,
+.vendors,
+.customers,
+.airlines,
+.booking,
+.expences,
+.banks,
+.setting {
+    line-height: 25px;
+    display: flex;
+    gap: 8px;
+
+}
+
+.side-dashboard img,
+.vendors img,
+.customers img,
+.airlines img,
+.booking img,
+.expences img,
+.banks img,
+.setting img {
+    width: 17px;
+    height: 17px;
+    cursor: pointer;
+
+}
+
+.side-dashboard h1,
+.vendors h1,
+.customers h1,
+.airlines h1,
+.booking h1,
+.expences h1,
+.banks h1,
+.setting h1 {
+    font-family: leto;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 16px;
+    text-align: left;
+    color: #FFFFFF;
+    cursor: pointer;
+}
+
+.side-img img {
+
+    width: 200px;
+    height: 200px;
+    margin-top: 188px;
+    padding: 20px 0px 0px 0px;
+    gap: 0px;
+    opacity: 10px;
+    position: absolute;
+    bottom: 0;
+    z-index: -200px;
+
+}
+
+/* here we seting the navbar */
+.profile {
+    margin-left: 260px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.navbar {
+    display: flex;
+
+    width: 1235px;
+    align-items: center;
+    justify-content: right;
+    background-color: rgb(255, 255, 255);
+    padding: 10px 10px 0px 10px;
+}
+
+.bil-icon {
+    display: flex;
+    gap: 50px;
+}
+
+/* here we setting the customer list */
+.profile-header {
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    gap: 8px;
+    padding: 30px 10px;
+    margin-left: 25px;
+}
+
+.profile-header h1 {
+    font-family: opensans;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
+    color: rgba(0, 0, 0, 1)
+}
+
+.profile-header p {
+
+    font-family: opensans;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 24px;
+    text-align: left;
+    color:
+        rgba(96, 91, 255, 1);
+
+}
+
+
+/* here we setting the main-card */
+.customer-set {
+    width: 1128px;
+    height: 850px;
+
+    gap: 0px;
+    border-radius: 12px;
+    opacity: 0px;
+    background-color: rgb(255, 255, 255);
+    padding: 15px 25px;
+
+}
+
+.img {
+    position: relative;
+
+
+}
+
+.frame-img {
+    display: flex;
+    gap: 10px;
+}
+
+.pen-img {
+    position: absolute;
+    width: 28px;
+    height: 28px;
+    gap: 0px;
+    border-radius: 3px;
+    opacity: 0px;
+    background: rgba(236, 247, 251, 1);
+    margin-top: -70px;
+    margin-left: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.addImg h1 {
+    font-family: opensans;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 28px;
+    text-align: left;
+
+}
+
+#companyForm {
+    display: flex;
+    justify-content: center;
+    gap: 196px;
+    margin-top: 50px;
+}
+
+.form1 label {
+    font-family: opensans;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 28px;
+    text-align: left;
+    color: rgba(66, 66, 66, 1);
+
+
+}
+
+.form input {
+    width: 431px;
+    height: 36px;
+    top: 226px;
+    left: 304px;
+    gap: 0px;
+    border-radius: 3px;
+    border: 1px 0px 0px 0px;
+    opacity: 0px;
+    border: 1px solid rgba(189, 189, 189, 1);
+    cursor: pointer;
+}
+
+.form1 {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.form1 input {
+    padding: 0px 15px;
+}
+
+.add-package {
+    width: 1090px;
+    height: 276px;
+    top: 602px;
+    left: 291px;
+    gap: 0px;
+    border-radius: 3px;
+    border: 1px 0px 0px 0px;
+    opacity: 0px;
+    border: 1px solid rgba(189, 189, 189, 1);
+    display: flex;
+    flex-direction: column;
+    text-align: justify;
+    justify-content: center;
+    gap: 10px;
+    padding: 5px 15px;
+
+}
+
+.add-package h2 {
+    font-family: opensans;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 16px;
+    letter-spacing: -0.01em;
+    text-align: left;
+    color:
+        rgba(0, 0, 0, 1);
+}
+
+.add-package p {
+    font-family: opensans;
+    font-size: 12px;
+    font-weight: 600;
+    line-height: 16px;
+    letter-spacing: -0.01em;
+    text-align: left;
+    color:
+        rgba(117, 117, 117, 1);
+}
+
+#add {
+    margin-top: 23px;
+    font-family: opensans;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 28px;
+    text-align: left;
+    color: rgba(66, 66, 66, 1);
+}
+
+.button button {
+    width: 136px;
+    height: 44px;
+    gap: 0px;
+    opacity: 0px;
+    background-color: rgba(96, 91, 255, 1);
+    border: 1px solid rgba(96, 91, 255, 1);
+    border-radius: 5px;
+    font-family: opensans;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 16px;
+    text-align: center;
+    color: rgba(255, 255, 255, 1);
+    margin-top: 25px;
+    cursor: pointer;
+}
